@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+
+        <add id="AdminForm_AdminModule::adminModule" 
+        title="AdminModule" 
+        module="AdminForm_AdminModule" 
+        action="adminModule/Sample/"
+        sortOrder="51" 
+        resource="AdminForm_AdminModule::adminModule"/>
+    </menu>
+</config>
